@@ -4,12 +4,17 @@
   "description": "basic setup for better organization and testing with ESlint, Jest and Enzyme",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --exit"
   },
   "author": "",
   "license": "MIT",
   "devDependencies": {
     "eslint": "^6.5.1",
     "eslint-plugin-react": "^7.16.0"
+  },
+  "dependencies": {
+    "chai": "^4.2.0",
+    "enzyme": "^3.10.0",
+    "mocha": "^6.2.1"
   }
 }
